@@ -1,0 +1,33 @@
+-- Step 1: Select the database
+USE northwind;
+
+-- Step 2: Drop and recreate the table structure
+DROP TABLE IF EXISTS `customers`;
+
+CREATE TABLE `customers` (
+  `CustomerID` varchar(5) NOT NULL,
+  `CompanyName` varchar(40) NOT NULL,
+  `ContactName` varchar(30) DEFAULT NULL,
+  `ContactTitle` varchar(30) DEFAULT NULL,
+  `Address` varchar(60) DEFAULT NULL,
+  `City` varchar(15) DEFAULT NULL,
+  `Region` varchar(15) DEFAULT NULL,
+  `PostalCode` varchar(10) DEFAULT NULL,
+  `Country` varchar(15) DEFAULT NULL,
+  `Phone` varchar(24) DEFAULT NULL,
+  `Fax` varchar(24) DEFAULT NULL,
+  PRIMARY KEY (`CustomerID`),
+  KEY `City` (`City`),
+  KEY `CompanyName` (`CompanyName`),
+  KEY `PostalCode` (`PostalCode`),
+  KEY `Region` (`Region`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Step 3: Insert cleaned data (Subset of Northwind Customers)
+INSERT INTO `customers` (`CustomerID`, `CompanyName`, `ContactName`, `ContactTitle`, `Address`, `City`, `Region`, `PostalCode`, `Country`, `Phone`, `Fax`) VALUES 
+('ALFKI','Alfreds Futterkiste','Maria Anders','Sales Representative','Obere Str. 57','Berlin',NULL,'12209','Germany','030-0074321','030-0076545'),
+('ANATR','Ana Trujillo Emparedados y helados','Ana Trujillo','Owner','Avda. de la Constitución 2222','México D.F.',NULL,'05021','Mexico','(5) 555-4729','(5) 555-3745'),
+('ANTON','Antonio Moreno Taquería','Antonio Moreno','Owner','Mataderos 2312','México D.F.',NULL,'05023','Mexico','(5) 555-3932',NULL),
+('AROUT','Around the Horn','Thomas Hardy','Sales Representative','120 Hanover Sq.','London',NULL,'WA1 1DP','UK','(171) 555-7788','(171) 555-6750'),
+('BERGS','Berglunds snabbköp','Christina Berglund','Order Administrator','Berguvsvägen 8','Luleå',NULL,'S-958 22','Sweden','0921-12 34 65','0921-12 34 67'),
+('SAVEA','Save-a-lot Markets','Jose Pavarotti','Sales Representative','187 Suffolk Ln.','Boise','ID','83720','USA','(208) 555-8097',NULL);
