@@ -22,8 +22,8 @@ This project presents a comprehensive sales analytics solution for the fictional
 
 ### 1. Customer Analysis
 *Strategic overview of global reach, segmentation by contact title, and historical acquisition trends.*
-![Customer Analysis](<img width="881" height="491" alt="customer analysis" src="https://github.com/user-attachments/assets/d44e8192-6f65-4dc3-860a-245a0a2e7cb5" />
-)
+![Customer Analysis]<img width="881" height="491" alt="customer analysis" src="https://github.com/user-attachments/assets/d44e8192-6f65-4dc3-860a-245a0a2e7cb5" />
+
 
 ### 2. Sales Analysis
 *Analysis of order values, processing times by country, and high-level revenue KPIs.*
