@@ -27,23 +27,23 @@ This project presents a comprehensive sales analytics solution for the fictional
 
 ### 2. Sales Analysis
 *Analysis of order values, processing times by country, and high-level revenue KPIs.*
-![Sales Analysis](<img width="967" height="540" alt="sales analysis" src="https://github.com/user-attachments/assets/1d782064-0d1d-4b05-aa07-ba7133d86bba" />
-)
+![Sales Analysis]<img width="967" height="540" alt="sales analysis" src="https://github.com/user-attachments/assets/1d782064-0d1d-4b05-aa07-ba7133d86bba" />
+
 
 ### 3. Employee Analysis
 *Internal performance tracking, including order counts by title and individual revenue contributions.*
-![Employee Analysis](<img width="969" height="540" alt="employees analysis" src="https://github.com/user-attachments/assets/69eb4583-de6f-46c2-bf10-def437a3a631" />
-)
+![Employee Analysis]<img width="969" height="540" alt="employees analysis" src="https://github.com/user-attachments/assets/69eb4583-de6f-46c2-bf10-def437a3a631" />
+
 
 ### 4. Product Analysis
 *Deep dive into product categories, pricing distribution, and inventory stock status.*
-![Product Analysis](<img width="967" height="531" alt="product analysis" src="https://github.com/user-attachments/assets/857d9efd-1152-4eca-842e-e6fab0ed80f2" />
-)
+![Product Analysis]<img width="967" height="531" alt="product analysis" src="https://github.com/user-attachments/assets/857d9efd-1152-4eca-842e-e6fab0ed80f2" />
+
 
 ### 5. Supplier Analysis
 *Global supplier footprint and procurement value analysis by contact role.*
-![Supplier Analysis](<img width="970" height="536" alt="supplier analysis" src="https://github.com/user-attachments/assets/bb86a754-9088-4bec-bb0f-3acf1386232c" />
-)
+![Supplier Analysis]<img width="970" height="536" alt="supplier analysis" src="https://github.com/user-attachments/assets/bb86a754-9088-4bec-bb0f-3acf1386232c" />
+
 
 ---
 
